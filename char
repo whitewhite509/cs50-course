@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(void)
+{
+    int i;//列出a-z
+    char c;
+    c='a';
+        for(i=0;i<26;i++)
+    {
+    printf("%5c",c);//5為寬度
+    c++;
+    }
+
+}
+

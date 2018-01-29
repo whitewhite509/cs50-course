@@ -1,0 +1,20 @@
+#include <stdio.h>
+int apple=10;
+float banana=10;//int,float是不是完全相等
+int main(void)
+{
+    if(apple==banana)//相等
+    {
+        printf("這常識阿！！");
+     }
+
+    else if(apple<banana)//int10小於float10
+    {
+        printf("這不科學0.0");
+    }
+
+    else//int10大於float10
+    {
+        printf("這世上還有天理嘛");
+    }
+}
