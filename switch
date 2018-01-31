@@ -1,0 +1,48 @@
+#include <stdio.h>
+
+int main()
+{
+    char R ;
+    printf("請輸入甲乙丙丁");
+
+    scanf("%s",&R);
+switch (R)
+{
+    case'甲':
+
+    {
+        printf("分數為 90分以上\n");
+
+        break;
+    }
+
+
+    case'乙':
+
+    {
+        printf("分數為 80分以上\n");
+
+        break;
+    }
+
+    case'丙':
+
+    {
+        printf("分數為 70分以上\n");
+
+        break;
+    }
+
+    case'丁':
+
+    {
+        printf("不及格！！！！\n");
+
+        break;
+    }
+}
+}
+//不知道為什麼不能跑 
+ error: character too large for enclosing character literal type
+    case'甲':
+        ︿
